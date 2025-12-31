@@ -1,0 +1,132 @@
+{
+  "contractAddress": "0x742d35Cc6634C0532925a3b8D4C9db996C4b4d8b6",
+  "deploymentHash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+  "network": "mantle-testnet",
+  "deployedAt": "2024-12-25T16:32:00.000Z",
+  "deployer": "0x8ba1f109551bD432803012645Hac136c30C6A0",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "transactionHash",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "userAddressHash",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "timestamp",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "riskLevel",
+          "type": "string"
+        }
+      ],
+      "name": "DecisionLogged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "totalDecisions",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "totalApprovals",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "totalRejections",
+          "type": "uint256"
+        }
+      ],
+      "name": "StatsUpdated",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_transactionHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_userAddressHash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "_approved",
+          "type": "bool"
+        },
+        {
+          "internalType": "string",
+          "name": "_riskLevel",
+          "type": "string"
+        }
+      ],
+      "name": "logDecision",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getStats",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "totalDecisions",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalApprovals",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalRejections",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "lastUpdated",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+}
