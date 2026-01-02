@@ -191,14 +191,15 @@ npm run preview
 ---
 
 ## 📜 Smart Contract
+**Deployment-ready for Mantle Testnet**
 
-### Deployed on Mantle Testnet
+The `AuraDecisionLogger` smart contract is fully implemented and tested locally.
 
-| Property | Value |
-|----------|-------|
-| **Contract Address** | `0x742d35Cc6634C0532925a3b8D4C9db996C4b4d8b6` |
-| **Network** | Mantle Testnet |
-| **Solidity Version** | 0.8.19 |
+Deployment to Mantle Sepolia Testnet was prepared, but public faucet and
+proof-of-humanity restrictions prevented on-chain deployment at submission time.
+
+The contract architecture, interfaces, and deployment scripts are included
+and compatible with Mantle L2.
 
 ### Contract Interface
 
