@@ -44,6 +44,54 @@
 4. **Privacy-First Design** - Uses address hashing to protect user identity
 
 ---
+## 📄 One-Pager Pitch
+
+### Problem
+Web3 users routinely sign blockchain transactions they do not fully understand.
+Wallets expose raw hexadecimal data, obscure permissions, and complex contract
+interactions, leading to phishing losses, malicious approvals, and irreversible
+mistakes.
+
+Despite growing adoption, transaction comprehension remains one of the largest
+unsolved UX and safety problems in Web3.
+
+---
+
+### Solution
+**AURA** is an AI-powered decision firewall that sits between users and their
+transactions.
+
+Before a transaction is signed, AURA:
+- Explains the transaction intent in plain English
+- Highlights basic but critical risk indicators
+- Allows users to consciously approve or reject actions
+- Records decisions transparently for accountability
+
+AURA does not block users or claim perfect security — it empowers informed
+decision-making.
+
+---
+
+### Why Mantle
+AURA uses **Mantle L2** as a low-cost, high-throughput decision logging layer.
+
+Recording user approve/reject decisions would be prohibitively expensive on L1.
+Mantle enables frequent, immutable logging without harming user experience,
+making it ideal for transparency and auditability at scale.
+
+---
+
+### Business Model
+- **B2B Wallet Integrations** (embedded safety layer for wallets)
+- **Enterprise Compliance & Audit Tooling**
+- **Premium Analytics** for institutions and power users
+
+---
+
+### Roadmap
+**Phase 1:** Wallet-side transaction intelligence (current MVP)  
+**Phase 2:** Advanced risk simulation and pattern analysis  
+**Phase 3:** Enterprise compliance dashboards and multi-wallet support
 
 ## ✨ Features
 
