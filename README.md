@@ -11,7 +11,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Demo](#-demo) • [Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
+[Demo](#-demo) • [One-Pager](#-one-pager-pitch) • [Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
 
 </div>
 
