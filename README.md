@@ -341,7 +341,6 @@ aura-decision-firewall/
 - [ ] **ML-Powered Risk Detection** - Advanced pattern recognition
 - [ ] **Browser Extension** - Seamless MetaMask integration
 - [ ] **DAO Governance** - Community-driven risk parameters
-- [ ] **Cross-Chain Support** - Expand beyond Mantle
 
 ---
 
