@@ -347,8 +347,7 @@ aura-decision-firewall/
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our contributing guidelines before submitting PRs.
-
+Contributions are welcome!
 ```bash
 # Fork the repo
 # Create your feature branch
