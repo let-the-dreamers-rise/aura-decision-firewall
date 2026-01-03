@@ -11,7 +11,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Demo](#-demo) • [One-Pager](#-one-pager-pitch) • [Features](#-features) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
+[Demo](#-demo) • [One-Pager](#-one-pager-pitch) • [Features](#-features)  • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
 
 </div>
 
@@ -116,7 +116,7 @@ making it ideal for transparency and auditability at scale.
 
 ---
 
-## 🏗️ architecture
+## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -363,6 +363,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with 💜 for the Mantle Global Hackathon**
 
-[⬆ Back to Top](#-aura---ai-decision-firewall)
 
 </div>
