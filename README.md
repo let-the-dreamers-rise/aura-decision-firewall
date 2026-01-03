@@ -220,8 +220,11 @@ contract AuraProof {
     string public constant name = "AURA Mantle Proof";
 }
 
+The following contract represents the planned production interface for
+on-chain decision logging. It is included for architectural clarity and
+future expansion, but is not deployed as part of the current MVP.
 
-###  Contract Interface
+### Planned Contract Interface (Future Expansion)
 
 ```solidity
 // SPDX-License-Identifier: MIT
