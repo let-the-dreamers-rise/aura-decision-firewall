@@ -192,16 +192,36 @@ npm run preview
 
 ## 📜 Smart Contract
 **Deployment-ready for Mantle Testnet**
+## 📜 Smart Contract
 
-The `AuraDecisionLogger` smart contract is fully implemented and tested locally.
+### Deployed on Mantle Sepolia Testnet
 
-Deployment to Mantle Sepolia Testnet was prepared, but public faucet and
-proof-of-humanity restrictions prevented on-chain deployment at submission time.
+A minimal on-chain contract has been deployed to the Mantle Sepolia testnet to
+prove ecosystem integration during the hackathon.
 
-The contract architecture, interfaces, and deployment scripts are included
-and compatible with Mantle L2.
+**Contract Address:**  
+`0x5f3B054c884CeEF157B92Ba6960A1Da70F3306ae`
 
-### Contract Interface
+**Network:** Mantle Sepolia  
+**Purpose:** Deployment proof for Mantle ecosystem compliance
+
+This contract serves as a lightweight on-chain anchor for AURA.
+Core transaction analysis and decision logic currently lives in the frontend,
+with Mantle L2 used for verifiable deployment and future expansion of
+decision-logging functionality.
+
+### Contract Code
+
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+contract AuraProof {
+    string public constant name = "AURA Mantle Proof";
+}
+
+
+###  Contract Interface
 
 ```solidity
 // SPDX-License-Identifier: MIT
