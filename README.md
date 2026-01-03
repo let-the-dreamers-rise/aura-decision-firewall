@@ -189,9 +189,6 @@ npm run preview
 ```
 
 ---
-
-## 📜 Smart Contract
-**Deployment-ready for Mantle Testnet**
 ## 📜 Smart Contract
 
 ### Deployed on Mantle Sepolia Testnet
