@@ -11,7 +11,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Demo](#-demo) • [One-Pager](#-one-pager-pitch) • [Features](#-features)  • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
+[One-Pager](#-one-pager-pitch) • [Features](#-features)  • [Quick Start](#-quick-start) • [Smart Contract](#-smart-contract)
 
 </div>
 
@@ -251,7 +251,7 @@ contract AuraDecisionLogger {
     );
 }
 ```
-
+The full decision-logging contract is intentionally staged for post-hackathon deployment to ensure stability, security review, and correct parameterization based on real usage data.
 ### Deploy Your Own
 
 ```bash
