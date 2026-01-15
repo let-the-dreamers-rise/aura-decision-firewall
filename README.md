@@ -149,7 +149,8 @@ making it ideal for transparency and auditability at scale.
 ```
 
 ---
-
+> Mantle L2 is used for low-cost, high-frequency, non-financial decision anchoring — 
+> an ideal fit for UX-driven blockchain infrastructure.
 ## 🚀 Quick Start
 
 ### Prerequisites
