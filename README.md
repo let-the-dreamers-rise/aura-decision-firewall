@@ -220,7 +220,7 @@ contract AuraProof {
 The following contract represents the planned production interface for
 on-chain decision logging. It is included for architectural clarity and
 future expansion, but is not deployed as part of the current MVP.
-
+```
 ### Planned Contract Interface (Future Expansion)
 
 ```solidity
